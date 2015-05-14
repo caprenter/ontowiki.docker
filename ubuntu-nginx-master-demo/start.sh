@@ -10,6 +10,8 @@ make deploy
 # start the virtuoso service
 #echo "starting virtuoso …"
 #service virtuoso-opensource-6.1 start
+#From:https://github.com/AKSW/OntoWiki/wiki/VirtuosoBackend
+virtuoso-t -f -c /opt/virtuoso/var/lib/virtuoso/ontowiki/virtuoso.ini
 
 # start the php5-fpm service
 echo "starting php …"
