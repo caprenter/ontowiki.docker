@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM caprenter/automated-build-virtuoso
 
 MAINTAINER Natanael Arndt <arndt@informatik.uni-leipzig.de>
 

@@ -1,4 +1,4 @@
-FROM aksw/ontowiki-ubuntu-nginx
+FROM caprenter/ontowiki.docker
 
 MAINTAINER Sebastian Tramp <tramp@informatik.uni-leipzig.de>
 
