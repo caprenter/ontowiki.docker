@@ -8,8 +8,8 @@ git pull
 make deploy
 
 # start the virtuoso service
-echo "starting virtuoso …"
-service virtuoso-opensource-6.1 start
+#echo "starting virtuoso …"
+#service virtuoso-opensource-6.1 start
 
 # start the php5-fpm service
 echo "starting php …"
