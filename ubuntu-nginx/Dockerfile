@@ -6,7 +6,6 @@ MAINTAINER Natanael Arndt <arndt@informatik.uni-leipzig.de>
 ENV DEBIAN_FRONTEND noninteractive
 
 # update ubuntu trusty
-RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
 RUN apt-get update
 
 # install some basic packages
